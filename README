@@ -1,0 +1,23 @@
+Integrantes:
+Adbías Palacios 201573007-5
+Gaspar Correa 201573009-1
+
+Puerto y dirección IP:
+5000 - 225.0.0.1
+
+Especificaciones e Instrucciones:
+Se debe agregar el número del cliente al iniciar, por ejemplo:
+
+java -cp . Client 225.0.0.1 2
+
+Al agregar canciones con el comando Queue o Play desde un cliente, se debe
+ingresar el nombre entre comillas dobles ("). Esto es para hacer la diferencia entre caracteres
+que pueda tener la cancion (guion bajo, guion, asterisco, etc).
+
+Ejemplo:
+
+Play "nombre de cancion largo" 120
+Queue "cancion* larga" 240
+
+Debido a lo especificado en https://moodle.inf.utfsm.cl/mod/forum/discuss.php?d=41305 la orden
+Queue debe devolver los resultados desde el servidor.
